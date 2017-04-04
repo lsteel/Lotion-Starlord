@@ -1,0 +1,19 @@
+{
+  "name": "lotionstarlord",
+  "version": "1.0.0",
+  "description": "Homepage of Lotion Starlord",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lsteel/lotionstarlord.git"
+  },
+  "author": "Lotion Starlord",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lsteel/lotionstarlord/issues"
+  },
+  "homepage": "https://github.com/lsteel/lotionstarlord#readme"
+}

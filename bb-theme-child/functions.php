@@ -48,11 +48,11 @@ function odw_customize_register( $customizer )
 add_filter( 'fl_social_icons', 'odw_social_icons' );
 function odw_social_icons( $icons ) {
     $icons = array(
+				'twitch',
+				'youtube',
         'snapchat',
         'twitter',
         'instagram',
-        'twitch',
-        'youtube',
         'facebook',
         'tumblr',
         'pinterest',

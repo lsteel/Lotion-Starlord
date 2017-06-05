@@ -1,14 +1,16 @@
 /* Add the below CSS to ouput the Houzz icon
 - Replace the word Houzz with your email social media icon
 - replace the unicode f27c with the unicode for your social media icon from Font Awesome */
-.fl-social-icons .fl-icon-twitch{font-family: FontAwesome; font-size: 17px;}
-.fl-icon-twitch-circle:before { content: '\f1e8'; }
-.fl-icon-twitch-regular:before { content: '\f1e8'; }
-.fl-icon-twitch.fl-icon-color-branded { color: #6441A4; }
-.fl-icon-twitch.fl-icon-color-branded:hover { color: #7651b9; }
 
-.fl-social-icons .fl-icon-snapchat{font-family: FontAwesome; font-size: 17px;}
-.fl-icon-snapchat-circle:before { content: '\f2ab'; }
-.fl-icon-snapchat-regular:before { content: '\f2ab'; }
-.fl-icon-snapchat.fl-icon-color-branded { color: #FFFC00; }
-.fl-icon-snapchat.fl-icon-color-branded:hover { color: #dfdd1d; }
+.fa-twitch:before
+  content '\f1e8'
+
+.fl-social-icons .fa-stack.icon-twitch i.fa-circle.branded, .fl-social-icons .fa-twitch.branded, .fl-social-icons .fa-twitch.regular
+  color #6441A4
+
+.fa-snapchat:before
+  content '\f2ac'
+
+.fl-social-icons .fa-stack.icon-snapchat i.fa-circle.branded, .fl-social-icons .fa-snapchat.branded, .fl-social-icons .fa-snapchat.regular
+  color #FFFC00
+  text-shadow 0 0 3px #5c5c5c

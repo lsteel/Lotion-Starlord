@@ -50,8 +50,8 @@ function odw_social_icons( $icons ) {
     $icons = array(
 				'twitch',
 				'youtube',
-        'snapchat',
         'twitter',
+        'snapchat',
         'instagram',
         'facebook',
         'tumblr',
